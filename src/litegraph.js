@@ -7006,7 +7006,7 @@ LGraphNode.prototype.executeAction = function(action)
 
         var scale = this.ds.scale;
 
-        scale *= Math.pow(1.2, delta * 0.01);
+        scale *= Math.pow(1.1, delta * 0.01);
 
         //this.setZoom( scale, [ e.clientX, e.clientY ] );
         this.ds.changeScale(scale, [e.clientX, e.clientY]);
